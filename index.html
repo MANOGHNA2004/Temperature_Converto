@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="name">Welcome to the Temperature Converter</h1>
+        </header>
+    <div class="wrapper">
+    <div class="container">
+
+        <div class="title">
+            <h1> Temperature Converter</h1>
+        </div></br>
+
+        <form id="calcTemp" onsubmit="calculateTemp(); return false">
+            <h3>Enter the Temperature</h3>
+        </form>
+
+        <div id="celsius">
+            <input type="number" name=""
+            placeholder="Celsius">
+            <span class="icon">&#8451</span>
+        </div><br><br>
+
+        <div id="fahrenheit">
+            <input type="number" name=""
+            placeholder="Fahrenheit">
+            <span class="icon">&#8457</span>
+        </div><br><br>
+
+        <div id="kelvin">
+            <input type="number" name=""
+            placeholder="Kelvin">
+            <span class="icon">&#8490</span>
+        </div><br><br>
+
+        <div class="button">
+            <button>All Clear</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+<footer>
+    <p>&copy; 2024 Temperature Converter. All Rights Reserved.</p>
+    <p>Created by Manoghna</p>
+</footer>
+</body>
+</html>

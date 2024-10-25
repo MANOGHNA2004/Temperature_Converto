@@ -1,0 +1,110 @@
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/014/178/760/large_2x/snow-winter-background-free-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+    display: flex;
+    background-attachment: fixed;
+    
+}
+
+.container{
+position: absolute;
+top: 40%;
+left: 50%;
+transform:translate(-50%,-50%);
+width: 380px;
+height: 200px;
+background: transparent;    
+
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: snowwhite;
+text-align: center;
+}
+
+/* Header Styling */
+
+    header {
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    
+
+  /* Footer Styling */
+  footer {
+    width: 100%;
+    background-color: #222;
+    color: #ccc;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+.name{
+    text-align: center;
+    align-items: center;
+}
+
+.celsius{
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+
+}
+
+input[type="number"] {
+    width: 90%;           
+    padding: 15px;        
+    margin: 10px 0;
+    font-size: 1.2em;     
+    border-radius: 8px;   
+    border: 1px solid #ccc;
+}
+
+.icon {
+    position: relative;
+    left: 10px;           
+    color: #333;
+    font-size: 1.5em;     
+}
+.degree-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #444;   
+    border-radius: 10px;      
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.7); 
+}
+
+input[type="number"] {
+    width: 80%;               
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;             
+    border-radius: 5px;
+}
+
+.icon {
+    font-size: 1.5em;
+    color: #333;
+    padding-left: 10px;       
+}
